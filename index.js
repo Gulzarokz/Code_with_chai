@@ -333,23 +333,73 @@
 
 // object de_structure
 
-const course = {
-    userName: "khan",
-    price: "900",
-    courseInstructor: "Gulzar"
+// const course = {
+//     userName: "khan",
+//     price: "900",
+//     courseInstructor: "Gulzar"
 
-}
-// course.courseInstructor;
-const {courseInstructor: Instructor} = course
- console.log(Instructor);
+// }
+// // course.courseInstructor;
+// const {courseInstructor: Instructor} = course
+//  console.log(Instructor);
  
 //  console.log( course.courseInstructor);
  
  
 
+// Function 
+// console.log("g");
+// console.log("u");
+// console.log("l");
+// console.log("z");
+// console.log("a");
+// console.log("r");
+
+// function sayMyName() {
+// console.log("gulzar");
+// console.log("u");
+// console.log("l");
+// console.log("z");
+// console.log("a");
+// console.log("r");
+
+// }
+// sayMyName();
+// sayMyName();
+// sayMyName();
+
+
+// function addTwoNumber(Number1, Number2){
+//     console.log(Number1 + Number2);
+    
+// }
+ 
+//  const result =  addTwoNumber(3, 5);
+//  console.log(result); why it is undefined
+ 
 
 
 
+// function addTwoNumber(Number1, Number2){
+
+//         // let result = Number1 + Number2;
+//         // return result; cannot write any thing after return bcz it is unreachable code
+    
+// }
+ 
+//  const result =  addTwoNumber(3, 5)
+// console.log(result);
+
+
+
+ function loginUserMessage(username = "KHan"){
+    if(!username){
+        console.log("please Enter user name first");
+        return
+    }
+    return `${username} just logged in`
+ }
+console.log(loginUserMessage("gul")); 
 
 
 
