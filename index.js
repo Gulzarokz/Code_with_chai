@@ -392,23 +392,49 @@
 
 
 
- function loginUserMessage(username = "KHan"){
-    if(!username){
-        console.log("please Enter user name first");
-        return
-    }
-    return `${username} just logged in`
+//  function loginUserMessage(username = "KHan"){
+//     if(!username){
+//         console.log("please Enter user name first");
+//         return
+//     }
+//     return `${username} just logged in`
+//  }
+// console.log(loginUserMessage("gul")); 
+
+
+// function calculateCardPrice(num1) {
+//  return num1;
+// }
+
+// console.log(calculateCardPrice(5));
+
+
+// function calculateCardPrice(val1, val2, ...num1) {  rest operators ...
+//  return num1;
+// }
+
+// console.log(calculateCardPrice(5, 3, 5));
+
+// const user = {
+//     username: "gulzar",
+//     price: 200
+// }
+
+
+
+// function handleObject(anyobject){
+//     console.log(`The user name is ${anyobject.username} and prices is ${anyobject.price}`);
+    
+// }
+
+// handleObject(user);
+
+// return array
+ const myNewArray = [34, 56, 78, 89, 56]
+
+ function returnSecondNumber(getArray) {
+    return getArray[1]
  }
-console.log(loginUserMessage("gul")); 
 
-
-
-
-
-
-
-
-
-
-
-
+console.log(returnSecondNumber(myNewArray));
+ 
