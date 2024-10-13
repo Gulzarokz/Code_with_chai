@@ -429,12 +429,67 @@
 
 // handleObject(user);
 
-// return array
- const myNewArray = [34, 56, 78, 89, 56]
+// // return array
+//  const myNewArray = [34, 56, 78, 89, 56, 45]
 
- function returnSecondNumber(getArray) {
-    return getArray[1]
- }
+//  function returnSecondNumber(getArray) {
+//     return getArray[1]
+//  }
 
-console.log(returnSecondNumber(myNewArray));
+// console.log(returnSecondNumber(myNewArray));
  
+
+// scope of function
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+    
+// }
+// console.log(i);
+
+// scoping level
+
+// function one(){
+//     const username = "gulzar"
+
+    
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
+
+//         console.log(website);
+//     }
+    
+//     two()
+//     // console.log(username);
+    
+// }
+// one()
+//  scope level
+// if (true) {
+//     const username = "gulzar"
+//     if (username === "gulzar") {
+//         const website = "youtube"
+//         console.log(username + " " + " " + website);
+//     }
+//     // console.log(website);
+    
+    
+// }
+// // console.log(username);
+
+
+
+
+//  console.log(addone(4));
+ 
+// function addone(num){
+//     return num + 1
+// }
+
+
+// console.log(addtwo());// it cannot acess befor intilization
+
+// const  addtwo = function(num){
+//     return addtwo + 2
+// // }
+// console.log(addtwo(9));
