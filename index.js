@@ -493,3 +493,77 @@
 //     return addtwo + 2
 // // }
 // console.log(addtwo(9));
+
+
+// This key word and Arrow function
+
+
+// const user = {
+//     userName: "Gulzar",
+//     price: 999,
+
+//     welcomeMessage: function() {
+//         console.log(`${this.userName} welcome to my website`);
+//         // console.log(this);
+        
+
+//     }
+// }
+ 
+// user.welcomeMessage();
+// this.userName = "gul"
+// console.log(this.userName);
+
+// console.log(this);
+
+
+// function gul(){
+//     let userName = "gulzar";
+//     console.log(this.userName);
+    
+// }
+// gul();
+
+// const gul = function() {
+//     let userName = "gulzar";
+//     console.log(this.userName);
+    
+// }
+// gul();
+
+// const gul = () => {
+//     let userName = "gulzar";
+//     // console.log(this.userName);
+//     console.log(this);
+    
+// }
+// gul();
+
+// const addTwoNumber = (num1, num2) => {
+//     return num1 + num2;
+
+// }
+// console.log(addTwoNumber(5, 7));
+
+// const addTwoNumber = (num1, num2) =>  num1 + num2;
+
+
+// // const addTwoNumber = (num1, num2) =>  (num1 + num2);
+// const addTwoNumber = (num1, num2) =>  ({userName: "gulzzar"});
+
+
+// console.log(addTwoNumber(5, 10));
+
+// immediately invoked function expersion IIFE
+
+(function gul (){
+    console.log("gulzar");
+    
+    
+    
+})();
+
+((username) => {
+    console.log(`Connected ${username}`);
+    
+})("DBMS successfully")
