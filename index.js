@@ -556,14 +556,124 @@
 
 // immediately invoked function expersion IIFE
 
-(function gul (){
-    console.log("gulzar");
+// (function gul (){  it is called name df
+//     console.log("gulzar");
     
     
     
-})();
+// })();
 
-((username) => {
-    console.log(`Connected ${username}`);
+// ((username) => {
+//     console.log(`Connected ${username}`);
     
-})("DBMS successfully")
+// })("DBMS successfully")
+
+
+//control flow in javaScript
+
+// if(2 === "2"){
+//     //== it check only value but === it check data type as well 
+//     console.log("Executed");
+    
+// }
+
+// switch statments
+
+// const months = 3;
+// // const months = +prompt("Enter month names please");
+
+// switch(months){
+//     case 1:
+//         console.log("january");
+//         break;
+//     case 2:
+//         console.log("February");
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     case 4:
+//         console.log("April");
+//         break;
+//     case 5:
+//         console.log("May");
+//         break;
+//     case 6:
+//         console.log("june");
+//         break;
+//     case 7:
+//         console.log("july");
+//         break;
+//     case 8:
+//         console.log("August");
+//         break;
+
+//         default:
+//             console.log("Enter invaled value");
+//             break;
+            
+        
+// }
+
+
+// Nullish coalescing Operators (??)
+
+// var val1;
+// val1 =  5 ?? 10;
+// //  val1 = null ?? 10;
+// //  val1 = undefined ?? 20;
+
+
+//  console.log(val1);
+
+// loop itrations
+
+// for (let i = 0; i < 10; i++) {
+//     const element = i;
+//     if(element === 3){
+//         console.log("3 is the odd number in the list");
+        
+//     }
+
+//     console.log(element);
+    
+    
+// // }
+//  for (let i = 2; i <= 10; i++) {
+//     console.log(`outer loop ${i}`);
+//     for (let j = 2; j <= 10; j++) {
+//         // console.log(`Inner loops here ${i} and ${j}`);
+//         console.log(`The table ${i} * ${j} = ${i*j}`);
+        
+        
+        
+//     }
+    
+    
+//  }
+
+// loop in which assess the array elements
+
+// const array = ["gulzar", "amin", "wajid", "roman"];
+// // console.table(array);
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+//     console.table(element);
+    
+// }
+
+
+// // break and continue 
+// for (let index = 1; index <= 20; index++) {
+//     const element = index;
+//     if(element === 5){
+//         console.log("dedected");
+//         // break; it break here not printing more elements
+//         // continue;it continue untill the end
+//         // that is the key difference between them
+        
+//     }
+//     console.log(element);
+    
+    
+// }
