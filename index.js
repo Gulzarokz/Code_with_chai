@@ -677,3 +677,34 @@
     
     
 // }
+
+
+// while and do while loops
+
+// let index = 0;
+
+// while (index <= 10) {
+//     console.log(`The value of index ${index}`);
+//     index = index + 2;
+    
+    
+// }
+
+// const myArray = ["Fakhar", "Babar", "Shaheen ", "Naseem"];
+
+// let arr = 0;
+// while (arr < myArray.length) {
+//     console.log(`The Name of our hero is =  ${myArray[arr]}`);
+//     arr = arr + 1;
+    
+    
+// }
+// do while loop
+  
+
+let score = 1;
+do {
+    console.log(`Your scores is ${score}`);
+    score = score + 1;
+    
+} while (score <= 10);
