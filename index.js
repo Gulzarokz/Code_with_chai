@@ -702,9 +702,102 @@
 // do while loop
   
 
-let score = 1;
-do {
-    console.log(`Your scores is ${score}`);
-    score = score + 1;
+// let score = 1;
+// do {
+//     console.log(`Your scores is ${score}`);
+//     score = score + 1;
     
-} while (score <= 10);
+// } while (score <= 10);
+
+
+// for of loop
+
+// const arr = [1, 2, 3, 4, 5];
+// for (const i of arr) {
+//     console.log(`the value of i is ${i}`)
+    
+    
+// }
+
+// for string 
+
+// const greeting = ["Assalam o alikom"];
+// for (const greet  of greeting) {
+//     console.log(` ${greet}`);
+    
+    
+// }
+
+// Map 
+
+// const map = new Map()
+//     map.set('Pak', "pakistan")
+//     map.set('ind', "India")
+//     map.set('Sar', "Sarilanka")
+//     map.set('Bang', "Bangladish")
+
+//     // console.log(map);
+
+//     for (const [key, value] of map) {   // array destructuring 
+//         console.log(key, ':-', value);
+        
+        
+//     }
+    
+// const myObject = {
+//     cpp: "c++",
+//     js: "javascript",
+//     css: "cascading style sheet"
+// }
+// // for (const key of myObject) {
+// //     console.log(myObject);
+    
+    
+// // }
+// for (const key in myObject) {
+//     console.log(`${key} shortcut of ${myObject[key]}`);
+    
+    
+// }
+// forEach methods
+
+// const programming = ["java", "python","javascript", "cpp", "html"];
+// programming.forEach( function(val) {
+//     console.log(val);
+    
+// })
+// ARROW FUNCTION
+
+// programming.forEach( (items) =>{
+//     console.log(items);
+    
+// })
+
+//  function printingMe (items){
+//     console.log(items);
+    
+// }
+// programming.forEach(printingMe)
+
+// programming.forEach( (items, index, arr) => {
+//     console.table(items, index, arr);
+    
+// })
+// const myObject = [
+//     {
+//         languageName: "javaScript", 
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "java", 
+//         languageFileName: "java"
+//     },
+//     {
+//         languageName: "c++", 
+//         languageFileName: "cpp"
+//     }
+// ]
+// myObject.forEach( (items) =>  {
+//     console.log(items.languageName);
+    
+// })
