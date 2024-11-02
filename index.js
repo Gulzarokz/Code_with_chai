@@ -801,3 +801,78 @@
 //     console.log(items.languageName);
     
 // })
+
+// forEach
+
+// const conding = ["java","cpp","javascript","html","css"];
+
+// const values = conding.forEach( (item) => { // return no value => undefined
+//     // console.log(item);
+//     return item
+    
+
+// })
+// console.log(values);
+
+//filter Methods
+
+// const myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// // const newNum = myNum.filter( (myNum) => myNum > 4);
+// const newNum = myNum.filter( (myNum) =>{
+//    return myNum > 4     //it return empty array when you not used return key words
+// });
+
+// console.log(newNum);
+
+
+// const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const doubleNum = num.map( (num) => num * 2)
+// console.log(doubleNum);
+
+
+// // chain methods 
+// const myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const newNum = myNum
+//                 .map( (val) => val * 10)
+//                 .map( (val) => val + 1)
+//                 .filter( (val) => val >= 50)
+                
+                
+//                 console.log(newNum);
+// reduced methods
+
+// const shopingCard = [1, 2, 3, 4];
+
+// const Total = shopingCard.reduce( function (acc, currval){
+//     console.log(`acc ${acc} and currval ${currval}`);
+    
+//     return acc + currval;
+// }, 0
+// );
+// arrow function
+
+// const Total = shopingCard.reduce( (acc, currval) => acc + currval , 0)
+// console.log(Total);
+
+const shopingCard = [
+    {
+        itemName: "js course",
+        price:  9909
+    },
+    {
+        itemName: "py course",
+        price:  909
+    },
+    {
+        itemName: "php course",
+        price:  99
+    },
+    {
+        itemName: "css course",
+        price:  1909
+    },
+]
+
+const Total = shopingCard.reduce( (acc, item) => acc + item.price ,0);
+console.log(Total);
